@@ -1,0 +1,16 @@
+libnfs-raw-mount.c:39:1:zdr_fhandle3	16	static
+libnfs-raw-mount.c:47:1:zdr_dirpath	16	static
+libnfs-raw-mount.c:55:1:zdr_name	16	static
+libnfs-raw-mount.c:63:1:zdr_mountstat3	16	static
+libnfs-raw-mount.c:71:1:zdr_mountlist	16	static
+libnfs-raw-mount.c:79:1:zdr_mountbody	16	static
+libnfs-raw-mount.c:91:1:zdr_groups	16	static
+libnfs-raw-mount.c:99:1:zdr_groupnode	16	static
+libnfs-raw-mount.c:109:1:zdr_exports	16	static
+libnfs-raw-mount.c:117:1:zdr_exportnode	16	static
+libnfs-raw-mount.c:129:1:zdr_mountres3_ok	24	static
+libnfs-raw-mount.c:140:1:zdr_mountres3	16	static
+libnfs-raw-mount.c:156:1:zdr_mountstat1	16	static
+libnfs-raw-mount.c:164:1:zdr_fhandle1	16	static
+libnfs-raw-mount.c:172:1:zdr_mountres1_ok	16	static
+libnfs-raw-mount.c:180:1:zdr_mountres1	16	static
