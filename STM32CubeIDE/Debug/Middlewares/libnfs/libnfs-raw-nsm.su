@@ -1,0 +1,12 @@
+libnfs-raw-nsm.c:39:1:zdr_nsmstat1	16	static
+libnfs-raw-nsm.c:47:1:zdr_nsm_my_id	16	static
+libnfs-raw-nsm.c:61:1:zdr_nsm_mon_id	16	static
+libnfs-raw-nsm.c:71:1:zdr_NSM1_STATres	16	static
+libnfs-raw-nsm.c:81:1:zdr_NSM1_STATargs	16	static
+libnfs-raw-nsm.c:89:1:zdr_NSM1_MONres	16	static
+libnfs-raw-nsm.c:99:1:zdr_NSM1_MONargs	16	static
+libnfs-raw-nsm.c:109:1:zdr_NSM1_UNMONres	16	static
+libnfs-raw-nsm.c:117:1:zdr_NSM1_UNMONargs	16	static
+libnfs-raw-nsm.c:125:1:zdr_NSM1_UNMONALLres	16	static
+libnfs-raw-nsm.c:133:1:zdr_NSM1_UNMONALLargs	16	static
+libnfs-raw-nsm.c:141:1:zdr_NSM1_NOTIFYargs	16	static

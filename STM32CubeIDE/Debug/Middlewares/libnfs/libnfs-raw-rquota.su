@@ -1,0 +1,7 @@
+libnfs-raw-rquota.c:39:1:zdr_rquotastat	16	static
+libnfs-raw-rquota.c:47:1:zdr_exportpath	16	static
+libnfs-raw-rquota.c:55:1:zdr_GETQUOTA1args	16	static
+libnfs-raw-rquota.c:65:1:zdr_quotatype	16	static
+libnfs-raw-rquota.c:73:1:zdr_GETQUOTA2args	16	static
+libnfs-raw-rquota.c:85:1:zdr_GETQUOTA1res_ok	24	static
+libnfs-raw-rquota.c:188:1:zdr_GETQUOTA1res	16	static
