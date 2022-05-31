@@ -55,7 +55,7 @@
 									<listOptionValue builtIn="false" value="../../Core/Inc"/>
 									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/libnfs/rquota"/>
 									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/libnfs/portmap"/>
-									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/libnfs/nsm"/>
+									<listOptionValue builtIn="false" value="&quot;../../../../../../../Desktop\libnfs-libnfs-5.0.1\nsm&quot;"/>
 									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/libnfs/nlm"/>
 									<listOptionValue builtIn="false" value="../../../../../../../Middlewares/ST/libnfs/nfs"/>
 									<listOptionValue builtIn="false" value="../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>

@@ -17,7 +17,6 @@ RM := rm -rf
 -include Middlewares/libnfs/nfs/subdir.mk
 -include Middlewares/libnfs/mount/subdir.mk
 -include Middlewares/libnfs/lib/subdir.mk
--include Middlewares/libnfs/subdir.mk
 -include Middlewares/ThreadX/RTOS/ThreadX/Core/subdir.mk
 -include Middlewares/NetXDuo/Network/NetXDuo/NX\ Core/subdir.mk
 -include Middlewares/NetXDuo/Network/NetXDuo/Addons\ DHCP\ Client/subdir.mk
@@ -80,8 +79,8 @@ all: main-build
 main-build: Nx_TCP_Echo_Server.elf secondary-outputs
 
 # Tool invocations
-Nx_TCP_Echo_Server.elf: $(OBJS) $(USER_OBJS) C:\Users\fatma\Desktop\Nouveau\ dossier\ (3)\Projects\STM32F429ZI-Nucleo\Applications\NetXDuo\Nx_TCP_Echo_Server\STM32CubeIDE\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "Nx_TCP_Echo_Server.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\fatma\Desktop\Nouveau dossier (3)\Projects\STM32F429ZI-Nucleo\Applications\NetXDuo\Nx_TCP_Echo_Server\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nx_TCP_Echo_Server.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Nx_TCP_Echo_Server.elf: $(OBJS) $(USER_OBJS) C:\Users\21692\Documents\GitHub\PPP-libnfs\STM32CubeIDE\STM32F429ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "Nx_TCP_Echo_Server.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\21692\Documents\GitHub\PPP-libnfs\STM32CubeIDE\STM32F429ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Nx_TCP_Echo_Server.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
